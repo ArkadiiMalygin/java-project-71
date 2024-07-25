@@ -1,5 +1,7 @@
 plugins {
-    id("java")
+    application
+    checkstyle
+
 }
 
 group = "hexlet.code"
@@ -16,4 +18,8 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+application {
+    mainClass = "hexlet.code.App"
 }
