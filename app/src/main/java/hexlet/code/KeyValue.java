@@ -1,6 +1,7 @@
 package hexlet.code;
 
-import java.util.Objects;
+import java.util.HashMap;
+import java.util.Map;
 
 public class KeyValue {
 
@@ -8,17 +9,45 @@ public class KeyValue {
     String key;
     String value;
 
+    int state;
+
+    String updatedTo;
+
     @Override
     public String toString() {
-        return  "  " + sign + ' ' +
-                key +
-                ": " + value + "\n";
+        return  "  " + sign + ' '
+                + key
+                + ": " + value + "\n";
     }
 
-    public KeyValue(String sign, String key, String value) {
+    public String toMap() {
+        return  "{\"" + sign + ' '
+                + key
+                + "\" : \"" + value +"\"}, ";
+
+    }
+
+    public KeyValue(String sign, String key, String value, int state) {
         this.sign = sign;
         this.key = key;
         this.value = value;
+        this.state = state;
+    }
+
+    public KeyValue(String sign, String key, String value, int state, String updatedTo) {
+        this.sign = sign;
+        this.key = key;
+        this.value = value;
+        this.state = state;
+        this.updatedTo = updatedTo;
+    }
+
+    public String getUpdatedTo() {
+        return updatedTo;
+    }
+
+    public int getState() {
+        return state;
     }
 
     public String getSign() {
