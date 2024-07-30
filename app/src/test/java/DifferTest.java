@@ -17,7 +17,8 @@ public class DifferTest {
                 + "}";
         String actuals = null;
         try {
-            actuals = Differ.generate("resources/file1.json", "resources/file2.json", "stylish");
+            System.out.println(System.getProperty("user.dir"));
+            actuals = Differ.generate("./resources/file1.json", "./resources/file2.json", "stylish");
         } catch (Exception e) {
             System.out.println("files were lost");
         }

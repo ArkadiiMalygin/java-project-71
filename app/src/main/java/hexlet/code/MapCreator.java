@@ -15,9 +15,9 @@ import static hexlet.code.Differ.YML;
 
 public class MapCreator {
 
-    public static Map<String, String> getMap(String filepath) throws IOException {
+    public static Map<String, Object> getMap(String filepath) throws IOException {
         String extension = Extension.getExtension(filepath);
-        Map<String, Object> map = new HashMap<>();
+        Map<String, Object> map;
         if (extension.equals(YML)) {
             map = MapCreator.forYAML(filepath);
         } else if ((extension.equals(JSON))) {
@@ -25,15 +25,8 @@ public class MapCreator {
         } else {
             throw new IOException();
         }
-        Map<String, String> resMap = new HashMap<>();
-        for (Map.Entry<String, Object> entry : map.entrySet()) {
-            if (Objects.isNull(entry.getValue())) {
-                resMap.put(entry.getKey(), null);
-            } else {
-                resMap.put(entry.getKey(), entry.getValue().toString());
-            }
-        }
-        return resMap;
+
+        return map;
     }
 
     public static Map<String,Object> forJson(String filepath) throws IOException {

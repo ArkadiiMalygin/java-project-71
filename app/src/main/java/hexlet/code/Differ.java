@@ -1,14 +1,9 @@
 package hexlet.code;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.HashMap;
 import java.util.Map;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import hexlet.code.formatters.Formatter;
 
 
 public class Differ {
@@ -21,13 +16,12 @@ public class Differ {
 
 
 
-        Map<String, String> map1 = MapCreator.getMap(filepath1);
-        Map<String, String> map2 = MapCreator.getMap(filepath2);
+        Map<String, Object> map1 = MapCreator.getMap(filepath1);
+        Map<String, Object> map2 = MapCreator.getMap(filepath2);
 
 
-        ArrayList<KeyValue> result = Generator.getDiff(map1, map2);
-        ObjectMapper om = new ObjectMapper();
-        //om.writeValue(new File("src/test/resources/differJson.json"), Formatter.getJson(result));
-        return Formatter.getStylish(result);
+        ArrayList<Map<String, Object>> result = Generator.getDiff(map1, map2);
+
+        return Formatter.getString(result, format);
     }
 }
