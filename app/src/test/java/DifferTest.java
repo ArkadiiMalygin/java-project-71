@@ -11,13 +11,13 @@ public class DifferTest {
         var expected = "{\n" + "  - follow: false\n"
                 + "    host: hexlet.io\n"
                 + "  - proxy: 123.234.53.22\n"
-                + "  - timeout: 50\n"
+                + "  - timeout: null\n"
                 + "  + timeout: 20\n"
                 + "  + verbose: true\n"
                 + "}";
         String actuals = null;
         try {
-            actuals = Differ.generate(".\\resources\\file1.json", ".\\resources\\file2.json");
+            actuals = Differ.generate("resources/file1.json", "resources/file2.json", "stylish");
         } catch (Exception e) {
             System.out.println("files were lost");
         }
@@ -30,7 +30,7 @@ public class DifferTest {
         var expected = "files were lost";
         String actuals = null;
         try {
-            actuals = Differ.generate(".\\resources\\file1.json", ".\\resources\\file2.json");
+            actuals = Differ.generate(".\\resources\\file1.json", ".\\resources\\file2.json", "stylish");
         } catch (Exception e) {
             actuals = "files were lost";
         }

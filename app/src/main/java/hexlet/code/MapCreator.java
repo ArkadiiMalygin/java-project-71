@@ -32,7 +32,6 @@ public class MapCreator {
             } else {
                 resMap.put(entry.getKey(), entry.getValue().toString());
             }
-
         }
         return resMap;
     }

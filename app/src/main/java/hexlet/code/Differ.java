@@ -16,7 +16,7 @@ public class Differ {
     public static final String YML = ".yml";
     public static final String JSON = ".json";
 
-    public static String generate(String filepath1, String filepath2) throws Exception {
+    public static String generate(String filepath1, String filepath2, String format) throws Exception {
 
 
 
@@ -27,7 +27,7 @@ public class Differ {
 
         ArrayList<KeyValue> result = Generator.getDiff(map1, map2);
         ObjectMapper om = new ObjectMapper();
-        om.writeValue(new File("src/test/resources/differJson.json"), Formatter.getJson(result));
-        return Formatter.getPlain(result);
+        //om.writeValue(new File("src/test/resources/differJson.json"), Formatter.getJson(result));
+        return Formatter.getStylish(result);
     }
 }

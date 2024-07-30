@@ -11,6 +11,8 @@ import static hexlet.code.Generator.DEPRECATED_STATE;
 import static hexlet.code.Generator.UNTOUCHED_STATE;
 
 public class Formatter {
+
+
     public static String getJson(List<KeyValue> list) {
         StringBuilder res = new StringBuilder("[\n");
         for (KeyValue keyValue : list) {
@@ -66,3 +68,5 @@ public class Formatter {
     return res.toString();
     }
 }
+//List<Map<String, Object>>
+//   for (
