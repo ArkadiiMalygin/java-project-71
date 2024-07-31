@@ -12,4 +12,8 @@
         - uses: gradle/gradle-build-action@v3
           with:
             gradle-version: 8.7
-        - run: make build
+        - run: 	./gradlew clean
+        - run: 	./gradlew checkstyleMain
+        - run: 	./gradlew checkstyleTest
+        - run: 	./gradlew test
+        - run: 	./gradlew build
