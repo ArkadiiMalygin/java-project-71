@@ -13,15 +13,8 @@
           with:
             gradle-version: 8.9
 
-        - name: Init gradle wrapper
-          run: gradle wrapper
-
-        - name: Change wrapper permissions
-          run: chmod +x ./gradlew
-
-        - name: Build with Gradle wrapper
-          run: ./gradlew build
-        - run: 	./gradlew checkstyleMain
-        - run: 	./gradlew checkstyleTest
-        - run: 	./gradlew test
-        - run: 	./gradlew build
+        - run:  ./app/gradlew build
+        - run: 	./app/gradlew checkstyleMain
+        - run: 	./app/gradlew checkstyleTest
+        - run: 	./app/gradlew test
+        - run: 	./app/gradlew build
