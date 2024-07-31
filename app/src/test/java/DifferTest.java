@@ -1,28 +1,25 @@
 import hexlet.code.Differ;
 import org.junit.jupiter.api.Test;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class DifferTest {
 
     @Test
-    public void testGenerate() {
+    public void testGenerate() throws IOException {
         System.out.println("Start1");
-        var expected = "{\n" + "  - follow: false\n"
-                + "    host: hexlet.io\n"
-                + "  - proxy: 123.234.53.22\n"
-                + "  - timeout: null\n"
-                + "  + timeout: 20\n"
-                + "  + verbose: true\n"
-                + "}";
         String actuals = null;
         try {
-            System.out.println(System.getProperty("user.dir"));
-            actuals = Differ.generate("./resources/file1.json", "./resources/file2.json", "stylish");
+            actuals = Differ.generate("src/test/resources/file1.json",
+                    "src/test/resources/file2.json", "stylish");
         } catch (Exception e) {
             System.out.println("files were lost");
         }
-        assertEquals(expected, actuals);
+        assertEquals(Files.readString(Path.of("src/test/resources/expectedForFile1and2Stylish.txt")), actuals);
     }
 
     @Test
