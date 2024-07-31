@@ -12,6 +12,18 @@
         - uses: gradle/gradle-build-action@v3
           with:
             gradle-version: 8.9
+
+        - name: Change wrapper permissions
+          run: chmod +x ./gradlew
+
+        - name: Init gradle wrapper
+          run: gradle wrapper
+
+        - name: Change wrapper permissions
+          run: chmod +x ./gradlew
+
+        - name: Build with Gradle wrapper
+          run: ./gradlew build
         - run: 	./gradlew checkstyleMain
         - run: 	./gradlew checkstyleTest
         - run: 	./gradlew test
