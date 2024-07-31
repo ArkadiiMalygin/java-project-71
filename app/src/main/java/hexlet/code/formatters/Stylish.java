@@ -1,7 +1,5 @@
 package hexlet.code.formatters;
 
-import hexlet.code.KeyValue;
-
 import java.util.List;
 import java.util.Map;
 

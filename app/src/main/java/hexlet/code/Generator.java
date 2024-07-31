@@ -1,8 +1,6 @@
 package hexlet.code;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -14,12 +12,12 @@ public class Generator {
     public static final Integer DELETED_STATE = 2;
     public static final Integer ADDED_STATE = 3;
 
-    public static ArrayList<Map<String, Object>> getDiff(Map<String,Object> map1, Map<String,Object> map2) {
+    public static ArrayList<Map<String, Object>> getDiff(Map<String, Object> map1, Map<String, Object> map2) {
         ArrayList<Map<String, Object>> result = new ArrayList<>();
         for (Map.Entry<String, Object> entry : map1.entrySet()) {
             if (map2.containsKey(entry.getKey())) {
                 if ((map2.get(entry.getKey()) == null && entry.getValue() == null)
-                        || ( map2.get(entry.getKey()) != null && entry.getValue() != null
+                        || (map2.get(entry.getKey()) != null && entry.getValue() != null
                         && map2.get(entry.getKey()).toString().equals(entry.getValue().toString()))) {
                     var map = new HashMap<String, Object>();
                     map.put("key", entry.getKey());

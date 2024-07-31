@@ -6,9 +6,7 @@ import com.fasterxml.jackson.dataformat.yaml.YAMLMapper;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 import static hexlet.code.Differ.JSON;
 import static hexlet.code.Differ.YML;
@@ -29,13 +27,13 @@ public class MapCreator {
         return map;
     }
 
-    public static Map<String,Object> forJson(String filepath) throws IOException {
+    public static Map<String, Object> forJson(String filepath) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         return objectMapper.readValue(new File(filepath),
                 new TypeReference<Map<String, Object>>() { });
     }
 
-    public static Map<String,Object> forYAML(String filepath) throws IOException {
+    public static Map<String, Object> forYAML(String filepath) throws IOException {
         ObjectMapper objectMapper = new YAMLMapper();
         return objectMapper.readValue(new File(filepath),
                 new TypeReference<Map<String, Object>>() { });

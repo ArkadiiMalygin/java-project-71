@@ -4,4 +4,9 @@ run-dist:
 .PHONY: build
 
 build:
-	./gradlew clean build
+	./gradlew clean
+	./gradlew checkstyleMain
+	./gradlew checkstyleTest
+	./gradlew test
+	./gradlew build
+	./build/install/app/bin/app

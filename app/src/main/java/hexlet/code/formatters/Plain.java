@@ -21,7 +21,8 @@ public class Plain {
             } else if (pair.get("state") == DELETED_STATE) {
                 res.append("Property '").append(pair.get("key")).append("' was removed\n");
             } else if (pair.get("state") == ADDED_STATE) {
-                res.append("Property '").append(pair.get("key")).append("' was added with value: ").append(plainVersion(pair.get("updatedTo"))).append("\n");
+                res.append("Property '").append(pair.get("key")).append("' was added with value: ")
+                        .append(plainVersion(pair.get("updatedTo"))).append("\n");
             }
         }
         return res.toString();
@@ -32,9 +33,9 @@ public class Plain {
         if (valueObject instanceof String) {
             value = "'" + valueObject + "'";
         } else if (valueObject instanceof Integer
-                || valueObject instanceof Boolean ){
+                || valueObject instanceof Boolean) {
             value = valueObject.toString();
-        } else if (Objects.isNull(valueObject) ) {
+        } else if (Objects.isNull(valueObject)) {
             value = null;
         } else {
             value = "[complex value]";

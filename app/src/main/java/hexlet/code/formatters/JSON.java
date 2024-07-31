@@ -1,7 +1,6 @@
 package hexlet.code.formatters;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import hexlet.code.KeyValue;
 
 import java.io.File;
 import java.io.IOException;
