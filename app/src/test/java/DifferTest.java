@@ -34,4 +34,17 @@ public class DifferTest {
         }
         assertEquals(expected, actuals);
     }
+
+    @Test
+    public void testGenerateOnBigFiles() throws IOException {
+        System.out.println("Start1");
+        String actuals = null;
+        try {
+            actuals = Differ.generate("src/test/resources/bigFile1.json",
+                    "src/test/resources/bigFile2.json", "plain");
+        } catch (Exception e) {
+            System.out.println("files were lost");
+        }
+        assertEquals(Files.readString(Path.of("src/test/resources/expectedForBigFile1and2Plain.txt")), actuals);
+    }
 }

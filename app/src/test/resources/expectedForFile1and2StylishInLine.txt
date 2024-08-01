@@ -1,0 +1,1 @@
+[{"updatedTo":null,"state":2,"value":false,"key":"follow"},{"updatedTo":null,"state":0,"value":"hexlet.io","key":"host"},{"updatedTo":null,"state":2,"value":"123.234.53.22","key":"proxy"},{"updatedTo":20,"state":1,"value":50,"key":"timeout"},{"updatedTo":true,"state":3,"value":null,"key":"verbose"}]

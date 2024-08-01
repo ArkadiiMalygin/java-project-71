@@ -8,7 +8,6 @@ public class Generator {
 
     public static final Integer UNTOUCHED_STATE = 0;
     public static final Integer CHANGED_STATE = 1;
-    public static final Integer DEPRECATED_STATE = 4;
     public static final Integer DELETED_STATE = 2;
     public static final Integer ADDED_STATE = 3;
 
