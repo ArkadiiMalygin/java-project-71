@@ -25,6 +25,7 @@ public class Plain {
                         .append(plainVersion(pair.get("updatedTo"))).append("\n");
             }
         }
+        res.deleteCharAt(res.length() - 1);
         return res.toString();
     }
 
