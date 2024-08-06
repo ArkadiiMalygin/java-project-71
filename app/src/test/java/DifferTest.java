@@ -23,6 +23,32 @@ public class DifferTest {
     }
 
     @Test
+    public void testGeneratePlain() throws IOException {
+        System.out.println("Start1");
+        String actuals = null;
+        try {
+            actuals = Differ.generate("src/test/resources/file1.json",
+                    "src/test/resources/file2.json", "plain");
+        } catch (Exception e) {
+            System.out.println("files were lost");
+        }
+        assertEquals(Files.readString(Path.of("src/test/resources/expectedForFile1and2StylishInPlain.txt")), actuals);
+    }
+
+    @Test
+    public void testGenerateJSON() throws IOException {
+        System.out.println("Start1");
+        String actuals = null;
+        try {
+            actuals = Differ.generate("src/test/resources/file1.json",
+                    "src/test/resources/file2.json", "json");
+        } catch (Exception e) {
+            System.out.println("files were lost");
+        }
+        assertEquals(Files.readString(Path.of("src/test/resources/expectedForFile1and2StylishInLine.txt")), actuals);
+    }
+
+    @Test
     public void testGenerateWithWrongPath() {
         System.out.println("Start2");
         var expected = "files were lost";
@@ -36,7 +62,7 @@ public class DifferTest {
     }
 
     @Test
-    public void testGenerateOnBigFiles() throws IOException {
+    public void testGenerateOnBigFilesPLain() throws IOException {
         System.out.println("Start1");
         String actuals = null;
         try {
@@ -47,4 +73,32 @@ public class DifferTest {
         }
         assertEquals(Files.readString(Path.of("src/test/resources/expectedForBigFile1and2Plain.txt")), actuals);
     }
+
+    @Test
+    public void testGenerateOnBigFilesStylish() throws IOException {
+        System.out.println("Start1");
+        String actuals = null;
+        try {
+            actuals = Differ.generate("src/test/resources/bigFile1.json",
+                    "src/test/resources/bigFile2.json", "stylish");
+        } catch (Exception e) {
+            System.out.println("files were lost");
+        }
+        assertEquals(Files.readString(Path.of("src/test/resources/expectedForBigFile1and2Stylish.txt")), actuals);
+    }
+
+    @Test
+    public void testGenerateOnBigFilesJSON() throws IOException {
+        System.out.println("Start1");
+        String actuals = null;
+        try {
+            actuals = Differ.generate("src/test/resources/bigFile1.json",
+                    "src/test/resources/bigFile2.json", "JSON");
+        } catch (Exception e) {
+            System.out.println("files were lost");
+        }
+        assertEquals(Files.readString(Path.of("src/test/resources/expectedForBigFile1and2JSON.txt")), actuals);
+    }
+
+
 }

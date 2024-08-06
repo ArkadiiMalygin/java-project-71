@@ -10,6 +10,7 @@ public class Differ {
 
     public static final String YML = ".yml";
     public static final String JSON = ".json";
+    public static final String STYLISH = "stylish";
 
     public static String generate(String filepath1, String filepath2, String format) throws Exception {
 
@@ -23,5 +24,9 @@ public class Differ {
         ArrayList<Map<String, Object>> result = Generator.getDiff(map1, map2);
 
         return Formatter.getString(result, format);
+    }
+
+    public static String generate(String filepath1, String filepath2) throws Exception {
+        return generate(filepath1,filepath2, STYLISH);
     }
 }
