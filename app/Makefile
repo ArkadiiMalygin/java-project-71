@@ -9,4 +9,3 @@ build:
 	./gradlew checkstyleTest
 	./gradlew test
 	./gradlew build
-	./build/install/app/bin/app
