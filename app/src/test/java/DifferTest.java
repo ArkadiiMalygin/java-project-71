@@ -11,7 +11,6 @@ public class DifferTest {
 
     @Test
     public void testGenerate() throws IOException {
-        System.out.println("Start1");
         String actuals = null;
         try {
             actuals = Differ.generate("src/test/resources/file1.json",
@@ -24,7 +23,6 @@ public class DifferTest {
 
     @Test
     public void testGeneratePlain() throws IOException {
-        System.out.println("Start1");
         String actuals = null;
         try {
             actuals = Differ.generate("src/test/resources/file1.json",
@@ -37,7 +35,6 @@ public class DifferTest {
 
     @Test
     public void testGenerateJSON() throws IOException {
-        System.out.println("Start1");
         String actuals = null;
         try {
             actuals = Differ.generate("src/test/resources/file1.json",
@@ -50,7 +47,6 @@ public class DifferTest {
 
     @Test
     public void testGenerateWithWrongPath() {
-        System.out.println("Start2");
         var expected = "files were lost";
         String actuals = null;
         try {
@@ -63,7 +59,6 @@ public class DifferTest {
 
     @Test
     public void testGenerateOnBigFilesPLain() throws IOException {
-        System.out.println("Start1");
         String actuals = null;
         try {
             actuals = Differ.generate("src/test/resources/bigFile1.json",
@@ -76,7 +71,6 @@ public class DifferTest {
 
     @Test
     public void testGenerateOnBigFilesStylish() throws IOException {
-        System.out.println("Start1");
         String actuals = null;
         try {
             actuals = Differ.generate("src/test/resources/bigFile1.json",
@@ -89,7 +83,6 @@ public class DifferTest {
 
     @Test
     public void testGenerateOnBigFilesJSON() throws IOException {
-        System.out.println("Start1");
         String actuals = null;
         try {
             actuals = Differ.generate("src/test/resources/bigFile1.json",

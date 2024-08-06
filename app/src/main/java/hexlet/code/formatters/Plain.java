@@ -12,7 +12,7 @@ import static hexlet.code.Generator.DELETED_STATE;
 
 public class Plain {
     public static String getPlain(List<Map<String, Object>> list) {
-        StringBuilder res = new StringBuilder("\n");
+        StringBuilder res = new StringBuilder();
         for (Map<String, Object> pair : list) {
             if (pair.get("state") == CHANGED_STATE) {
                 res.append("Property '").append(pair.get("key")).append("' was updated. From ")
