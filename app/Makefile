@@ -9,3 +9,6 @@ build:
 	./gradlew checkstyleTest
 	./gradlew test
 	./gradlew build
+
+report:
+	./gradlew jacocoTestReport
