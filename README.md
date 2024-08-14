@@ -7,6 +7,8 @@
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/ed5a3960a7c249f950df/test_coverage)](https://codeclimate.com/github/ArkadiiMalygin/java-project-71/test_coverage)
 
+### Description:
+This is a CLI utility that shows differences between two files in three various formats. To apply it use gendiff file_path1 file_path2 -f format_needed.
 
 ###### 1 - plain vesion without flags app first file then second file 
 [![asciicast](https://asciinema.org/a/oHV4NIgBTAyq0cP1jePgTSSkW.svg)](https://asciinema.org/a/oHV4NIgBTAyq0cP1jePgTSSkW)
