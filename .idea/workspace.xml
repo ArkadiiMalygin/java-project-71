@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21f3b171-8ce3-4306-bcb1-33d1eb0b502c" name="Changes" comment="update.gitignore">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Differ.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Differ.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/app">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="app" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="app" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2jzW4dVZJCu8ApNenEtpjYcitB1" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build app.executor": "Run",
+    "Gradle.app [build].executor": "Run",
+    "Gradle.app [checkstyleMain].executor": "Run",
+    "Gradle.app [checkstyleTest].executor": "Run",
+    "Gradle.app [installDist].executor": "Run",
+    "Gradle.app [jacocoTestCoverageVerification].executor": "Run",
+    "Gradle.app [jacocoTestReport].executor": "Run",
+    "JUnit.DifferTest.executor": "Run",
+    "JUnit.DifferTest.testGenerate.executor": "Run",
+    "JUnit.DifferTest.testGenerateJSON.executor": "Run",
+    "JUnit.DifferTest.testGenerateOnBigFiles.executor": "Run",
+    "JUnit.DifferTest.testGenerateOnBigFilesJSON.executor": "Run",
+    "JUnit.DifferTest.testGenerateOnBigFilesPLain.executor": "Run",
+    "JUnit.DifferTest.testGenerateOnBigFilesStylish.executor": "Run",
+    "JUnit.DifferTest.testGeneratePlain.executor": "Run",
+    "JUnit.ExtensionTest.testGetExtension.executor": "Run",
+    "JUnit.FormatterTest.testGetString.executor": "Run",
+    "JUnit.GeneratorTest.testGetDiff.executor": "Run",
+    "JUnit.JSONTest.testGetJSON.executor": "Run",
+    "JUnit.MapCreatorTest.testForJson.executor": "Run",
+    "JUnit.MapCreatorTest.testForYAML.executor": "Run",
+    "JUnit.MapCreatorTest.testGetMap.executor": "Run",
+    "JUnit.PlainTest.testGetStylish.executor": "Run",
+    "JUnit.StylishTest.testGetString.executor": "Run",
+    "Makefile Target.build.executor": "Run",
+    "Makefile Target.report.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/hachiko/java-project-71",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu\home\hachiko\java-project-71\app\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu\home\hachiko\java-project-71\app" />
+      <recent name="\\wsl.localhost\Ubuntu\home\hachiko\java-project-71" />
+      <recent name="\\wsl.localhost\Ubuntu\home\hachiko\java-project-71\.github\workflows" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.app [jacocoTestReport]">
+    <configuration name="app [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="app [installDist]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="installDist" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="app [jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jacocoTestReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/app/Makefile" target="build" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="report" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/app/Makefile" target="report" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.app [jacocoTestReport]" />
+        <item itemvalue="Makefile Target.build" />
+        <item itemvalue="Makefile Target.report" />
+        <item itemvalue="Gradle.app [installDist]" />
+        <item itemvalue="Gradle.app [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-corretto-21.0.2-4caba194b151-51586f01" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21f3b171-8ce3-4306-bcb1-33d1eb0b502c" name="Changes" comment="" />
+      <created>1722390195331</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722390195331</updated>
+    </task>
+    <task id="LOCAL-00001" summary="working code">
+      <option name="closed" value="true" />
+      <created>1722433627321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722433627321</updated>
+    </task>
+    <task id="LOCAL-00002" summary="working code">
+      <option name="closed" value="true" />
+      <created>1722438037606</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722438037606</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first action">
+      <option name="closed" value="true" />
+      <created>1722438976012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722438976012</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first action">
+      <option name="closed" value="true" />
+      <created>1722439061458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722439061458</updated>
+    </task>
+    <task id="LOCAL-00005" summary="first action ct">
+      <option name="closed" value="true" />
+      <created>1722439279441</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722439279441</updated>
+    </task>
+    <task id="LOCAL-00006" summary="first action ct">
+      <option name="closed" value="true" />
+      <created>1722439379496</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722439379496</updated>
+    </task>
+    <task id="LOCAL-00007" summary="first action ct">
+      <option name="closed" value="true" />
+      <created>1722439520879</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722439520879</updated>
+    </task>
+    <task id="LOCAL-00008" summary="first action ct">
+      <option name="closed" value="true" />
+      <created>1722439724835</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722439724835</updated>
+    </task>
+    <task id="LOCAL-00009" summary="first action ct">
+      <option name="closed" value="true" />
+      <created>1722440033791</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722440033791</updated>
+    </task>
+    <task id="LOCAL-00010" summary="first action ct">
+      <option name="closed" value="true" />
+      <created>1722440141968</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722440141968</updated>
+    </task>
+    <task id="LOCAL-00011" summary="first action ct">
+      <option name="closed" value="true" />
+      <created>1722440348462</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722440348462</updated>
+    </task>
+    <task id="LOCAL-00012" summary="first action ct">
+      <option name="closed" value="true" />
+      <created>1722440785726</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722440785726</updated>
+    </task>
+    <task id="LOCAL-00013" summary="completed code">
+      <option name="closed" value="true" />
+      <created>1722474702641</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722474702641</updated>
+    </task>
+    <task id="LOCAL-00014" summary="more tests">
+      <option name="closed" value="true" />
+      <created>1722936740404</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1722936740404</updated>
+    </task>
+    <task id="LOCAL-00015" summary="less tests">
+      <option name="closed" value="true" />
+      <created>1722937135215</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1722937135215</updated>
+    </task>
+    <task id="LOCAL-00016" summary="less enters">
+      <option name="closed" value="true" />
+      <created>1722937492828</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722937492828</updated>
+    </task>
+    <task id="LOCAL-00017" summary="less enters">
+      <option name="closed" value="true" />
+      <created>1722939316183</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1722939316183</updated>
+    </task>
+    <task id="LOCAL-00018" summary="git action first fix">
+      <option name="closed" value="true" />
+      <created>1722939710762</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1722939710762</updated>
+    </task>
+    <task id="LOCAL-00019" summary="test coverage">
+      <option name="closed" value="true" />
+      <created>1723377325358</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1723377325358</updated>
+    </task>
+    <task id="LOCAL-00020" summary="jacoco add plugin">
+      <option name="closed" value="true" />
+      <created>1723377499679</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1723377499679</updated>
+    </task>
+    <task id="LOCAL-00021" summary="direct command">
+      <option name="closed" value="true" />
+      <created>1723399749001</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1723399749001</updated>
+    </task>
+    <task id="LOCAL-00022" summary="app/direct command">
+      <option name="closed" value="true" />
+      <created>1723399865753</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1723399865753</updated>
+    </task>
+    <task id="LOCAL-00023" summary="with declaring root derictory">
+      <option name="closed" value="true" />
+      <created>1723400377188</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1723400377188</updated>
+    </task>
+    <task id="LOCAL-00024" summary="with declaring root derictory and make file">
+      <option name="closed" value="true" />
+      <created>1723400536168</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1723400536168</updated>
+    </task>
+    <task id="LOCAL-00025" summary="wrong sig">
+      <option name="closed" value="true" />
+      <created>1723402246000</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1723402246000</updated>
+    </task>
+    <task id="LOCAL-00026" summary="working directory">
+      <option name="closed" value="true" />
+      <created>1723402791697</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1723402791697</updated>
+    </task>
+    <task id="LOCAL-00027" summary="working directory with location">
+      <option name="closed" value="true" />
+      <created>1723403568497</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1723403568497</updated>
+    </task>
+    <task id="LOCAL-00028" summary="working directory with location">
+      <option name="closed" value="true" />
+      <created>1723403923134</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1723403923135</updated>
+    </task>
+    <task id="LOCAL-00029" summary="working directory with location">
+      <option name="closed" value="true" />
+      <created>1723404186130</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1723404186130</updated>
+    </task>
+    <task id="LOCAL-00030" summary="working directory with location">
+      <option name="closed" value="true" />
+      <created>1723406523546</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1723406523546</updated>
+    </task>
+    <task id="LOCAL-00031" summary="working directory with location">
+      <option name="closed" value="true" />
+      <created>1723406753783</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1723406753783</updated>
+    </task>
+    <task id="LOCAL-00032" summary=":jacoco">
+      <option name="closed" value="true" />
+      <created>1723407417983</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1723407417983</updated>
+    </task>
+    <task id="LOCAL-00033" summary=":jacoco">
+      <option name="closed" value="true" />
+      <created>1723423020841</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1723423020841</updated>
+    </task>
+    <task id="LOCAL-00034" summary=":jacoco">
+      <option name="closed" value="true" />
+      <created>1723423779300</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1723423779300</updated>
+    </task>
+    <task id="LOCAL-00035" summary=":jacoco leave">
+      <option name="closed" value="true" />
+      <created>1723424008069</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1723424008069</updated>
+    </task>
+    <task id="LOCAL-00036" summary="$(basename $PWD)">
+      <option name="closed" value="true" />
+      <created>1723424421458</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1723424421458</updated>
+    </task>
+    <task id="LOCAL-00037" summary="depence">
+      <option name="closed" value="true" />
+      <created>1723633860653</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1723633860653</updated>
+    </task>
+    <task id="LOCAL-00038" summary="gradle  8.5">
+      <option name="closed" value="true" />
+      <created>1723634245129</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1723634245129</updated>
+    </task>
+    <task id="LOCAL-00039" summary="gradle  8.5 with working directory">
+      <option name="closed" value="true" />
+      <created>1723634452743</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1723634452743</updated>
+    </task>
+    <task id="LOCAL-00040" summary="gradle  8.5 without working directory">
+      <option name="closed" value="true" />
+      <created>1723635532161</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1723635532161</updated>
+    </task>
+    <task id="LOCAL-00041" summary="gradle  8.5 without new make file">
+      <option name="closed" value="true" />
+      <created>1723635727019</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1723635727019</updated>
+    </task>
+    <task id="LOCAL-00042" summary="update.gitignore">
+      <option name="closed" value="true" />
+      <created>1723636744309</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1723636744309</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first action" />
+    <MESSAGE value="first action ct" />
+    <MESSAGE value="completed code" />
+    <MESSAGE value="more tests" />
+    <MESSAGE value="less tests" />
+    <MESSAGE value="less enters" />
+    <MESSAGE value="git action first fix" />
+    <MESSAGE value="test coverage" />
+    <MESSAGE value="jacoco add plugin" />
+    <MESSAGE value="direct command" />
+    <MESSAGE value="app/direct command" />
+    <MESSAGE value="with declaring root derictory" />
+    <MESSAGE value="with declaring root derictory and make file" />
+    <MESSAGE value="wrong sig" />
+    <MESSAGE value="working directory" />
+    <MESSAGE value="working directory with location" />
+    <MESSAGE value=":jacoco" />
+    <MESSAGE value=":jacoco leave" />
+    <MESSAGE value="$(basename $PWD)" />
+    <MESSAGE value="depence" />
+    <MESSAGE value="gradle  8.5" />
+    <MESSAGE value="gradle  8.5 with working directory" />
+    <MESSAGE value="gradle  8.5 without working directory" />
+    <MESSAGE value="gradle  8.5 without new make file" />
+    <MESSAGE value="update.gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update.gitignore" />
+  </component>
+</project>
